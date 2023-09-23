@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    //nguyễn nhất quyền
     int val = 5 ;
     while (val >= 0)
     {
