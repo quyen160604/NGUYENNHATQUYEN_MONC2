@@ -1,13 +1,15 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
     const int size = 10;
     double values[size];
 
     // Nhập 10 giá trị từ người dùng và lưu vào mảng
     for (int i = 0; i < size; ++i) {
-        std::cout << "Nhập giá trị thứ " << i + 1 << ": ";
-        std::cin >> values[i];
+        cout << "Nhap gia tri thu nhat " << i + 1 << ": ";
+        cin >> values[i];
     }
 
     // Tìm giá trị lớn nhất và nhỏ nhất
@@ -25,8 +27,8 @@ int main() {
     }
 
     // Hiển thị kết quả
-    std::cout << "Giá trị lớn nhất trong mảng là: " << max_value << std::endl;
-    std::cout << "Giá trị nhỏ nhất trong mảng là: " << min_value << std::endl;
+    cout << "Gia tri lon nhat cua mang la: " << max_value << endl;
+    cout << "Gia tri nho nhat cua mang la : " << min_value << endl;
 
     return 0;
 }
